@@ -1,0 +1,22 @@
+h1 {
+    background: #373838;
+    font-size: 20px;
+    font-style: italic;
+    color: #FFFFFF;
+    position: relative;
+    padding-left: 15%;
+}
+
+.profile-picture {
+    padding-top: 10px;
+}
+
+nav {
+    color: orange;
+}
+
+nav a {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: orange;
+}
