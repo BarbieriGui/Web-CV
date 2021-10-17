@@ -1,22 +1,152 @@
-h1 {
-    background: #373838;
-    font-size: 20px;
-    font-style: italic;
-    color: #FFFFFF;
-    position: relative;
-    padding-left: 15%;
+body{
+    font: 15px/1.5 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-color: #2f3542; */
 }
 
-.profile-picture {
-    padding-top: 10px;
+/* Global */
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-nav {
-    color: orange;
+.botao_1{
+    cursor: pointer;
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ffffff;
 }
 
-nav a {
-    font-weight: bold;
+.fundoEscuro{
+    background: #020122;
+    color: #ffffff;
+    padding: 15px;
+    height: 50%;
+    margin: 2vw;
+    margin-top: 6%;
+    border-radius: 10px;
+}
+
+.desenvolvimento img{
+    width: 150px;
+    margin: 2%;
+    padding-left: 150px;
+}
+
+/* Header */
+header{
+    background: #02016e;
+    color: #ffffff;
+    padding-top: 20px;
+    min-height: 50px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
     text-transform: uppercase;
-    color: orange;
+    font-size: 13px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 10px 15px 0 15px; 
+}
+
+header #cabecalho{
+    float:left;
+}
+
+header h1{
+    margin:5px;
+    display: inline;
+    padding-bottom: 15px;
+}
+
+header nav{
+    float:right;
+}
+
+/* Perfil */
+#perfil{
+    background-image:url('../Web-CV/img/perfil_background.jpg');
+    background-size:cover;
+    color: #ffffff;
+}
+
+#perfil img{
+    display: inline-block;
+    width: 250px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    margin-left: 10%;
+}
+
+#perfil h2{
+    display: inline-block;
+    vertical-align: top;
+    color: #ffffff;
+    font-size: 30px;
+    padding-top: 5px;
+    margin: 10%;
+}
+
+/* Newsletter */
+#newsletter{
+    background: #02016e;
+    /* border-bottom: #e8491d 3px solid;
+    border-top: #e8491d 3px solid; */
+    color: #ffffff;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    float: right;
+    padding: 20px;
+}
+
+#newsletter input[type="email"]{
+    padding: 12px;
+    height: 10px;
+    width: 200px;
+}
+
+/* Texto Principal */
+#principal{
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+}
+
+#principal h1{
+    text-align: center;
+    /* margin-bottom: 10px; */
+}
+
+/* Texto lateral */
+aside #barraLateral{
+    float: right;
+    width: auto;
+    white-space: normal;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+/* Footer */
+footer{
+    padding: 5px;
+    margin-top: 20px;
+    background-color: #02016e;
+    color:#ffffff;
+    text-align: center;
 }
