@@ -11,11 +11,17 @@ Log:
 1. Big upload with most of the HTML and CSS code.
 2. Structure Organization.
 3. Update on "qualificacoes.html"
+4. Update on "habilidades.html"
 
 Plan:
-4. Update on "habilidades.html"
 5. Update on "about.html"
 6. Last changes
 7. Final revision
  
-
+Updates & Fixes:
+October Log:
+» profile background picture update
+» update on "habilidades"
+» add color and effects styling on NAV
+» fixed NAV style on "about.html"
+» name update "index.css" to "style.css"
