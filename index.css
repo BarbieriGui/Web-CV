@@ -54,6 +54,16 @@ header a{
     font-size: 13px;
 }
 
+header a:hover{
+    color:#cccccc;
+    font-weight:lighter;
+}
+
+header .current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
 header li{
     float: left;
     display: inline;
@@ -149,4 +159,18 @@ footer{
     background-color: #02016e;
     color:#ffffff;
     text-align: center;
+}
+
+/* Habilidades */
+#habilidades {
+    margin: 5px;  
+}
+
+#habilidades .container{
+    margin: 2%;
+}
+
+#habilidades li{
+    height: 50%;
+    border-radius: 10px;
 }
