@@ -20,8 +20,8 @@ Plan:
  
 Updates & Fixes:
 October Log:
-» profile background picture update
-» update on "habilidades"
-» add color and effects styling on NAV
-» fixed NAV style on "about.html"
-» name update "index.css" to "style.css"
+1. profile background picture update
+2. update on "habilidades"
+3. add color and effects styling on NAV
+4. fixed NAV style on "about.html"
+5. name update "index.css" to "style.css"
