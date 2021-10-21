@@ -15,8 +15,9 @@ Log:
 
 Plan:
 5. Update on "about.html"
-6. Last changes
-7. Final revision
+6. Upgrade CSS style on all .html files
+7. Last changes
+8. Final revision
  
 Updates & Fixes:
 October Log:
@@ -25,3 +26,5 @@ October Log:
 3. add color and effects styling on NAV
 4. fixed NAV style on "about.html"
 5. name update "index.css" to "style.css"
+6. minor fixes and updates in all .html files
+7. started adding information on "qualificacoes.html"
