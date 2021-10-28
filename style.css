@@ -152,14 +152,19 @@ aside #barraLateral{
     margin-left: 5px;
 }
 
-/* Footer */
-footer{
-    padding: 5px;
-    margin-top: 20px;
-    background-color: #02016e;
-    color:#ffffff;
-    text-align: center;
+/* Qualificações */
+.grelha {
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
+
+/* .grelha2{
+    display: grid;
+}
+
+.grelha3{
+    display: grid;
+} */
 
 /* Habilidades */
 #habilidades {
@@ -173,4 +178,13 @@ footer{
 #habilidades li{
     height: 50%;
     border-radius: 10px;
+}
+
+/* Footer */
+footer{
+    padding: 5px;
+    margin-top: 20px;
+    background-color: #02016e;
+    color:#ffffff;
+    text-align: center;
 }
