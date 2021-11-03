@@ -23,7 +23,7 @@ body{
 }
 
 .fundoEscuro{
-    background: #020122;
+    background: #0C4160;
     color: #ffffff;
     padding: 15px;
     height: 50%;
@@ -38,9 +38,13 @@ body{
     padding-left: 150px;
 }
 
+.sublinhado {
+    text-decoration: underline;
+}
+
 /* Header */
 header{
-    background: #02016e;
+    background: #020122;
     color: #ffffff;
     padding-top: 20px;
     min-height: 50px;
@@ -97,6 +101,7 @@ header nav{
     padding-top: 40px;
     padding-bottom: 35px;
     margin-left: 10%;
+    border-radius: 20%;
 }
 
 #perfil h2{
@@ -110,7 +115,7 @@ header nav{
 
 /* Newsletter */
 #newsletter{
-    background: #02016e;
+    background: #020122;
     /* border-bottom: #e8491d 3px solid;
     border-top: #e8491d 3px solid; */
     color: #ffffff;
@@ -139,6 +144,7 @@ header nav{
 }
 
 #principal h1{
+    color:#e8491d;
     text-align: center;
     /* margin-bottom: 10px; */
 }
@@ -153,19 +159,6 @@ aside #barraLateral{
 }
 
 /* Qualificações */
-.grelha {
-    display: grid;
-    grid-template-columns: 70% 30%;
-}
-
-/* .grelha2{
-    display: grid;
-}
-
-.grelha3{
-    display: grid;
-} */
-
 /* Habilidades */
 #habilidades {
     margin: 5px;  
@@ -180,11 +173,23 @@ aside #barraLateral{
     border-radius: 10px;
 }
 
+/* About */
+
+.contacto {
+    margin: 2%;
+}
+
+.contacto h1{
+    color:#e8491d;
+    font-weight: bold;
+}
+
 /* Footer */
 footer{
     padding: 5px;
     margin-top: 20px;
-    background-color: #02016e;
+    background-color: #020122;
     color:#ffffff;
     text-align: center;
+    font-size: small;
 }
